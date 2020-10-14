@@ -1,0 +1,77 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* It means that it will apply to all of them. */
+
+h1, h2, h3 {
+   font-family: "Lobster", cursive ; 
+}
+
+/* It will target all the text inside h2 page */
+h2 {
+    color: blue;
+}
+
+/* It will only target h2 elemenst that are descended from header section */
+header h2 {
+color: #cec8ff;
+}
+
+.site-footer {
+background-image: linear-gradient(#CEC8FF, white);
+padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #901cad;
+    margin-top: 5%;
+}
+.tab-content {
+    border: 1px solid #DDD;
+    BORDER-TOP: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+
+/* .fa-facebook, .fa-facebook-squre {
+    color: #3b5998;
+}
+
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-facebook, .fa-facebook-squre {
+    color: #3b5998;
+}
+
+.fa-twitter, .fa-twitter-square {
+    color: #00aced; 
+}
+
+.fa-youtube, .fa-youtube-square {
+    color: #bb0000;
+} */
